@@ -13,6 +13,7 @@
 		364986161C5A67A20071DA5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 364986151C5A67A20071DA5D /* Assets.xcassets */; };
 		364986191C5A67A20071DA5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 364986171C5A67A20071DA5D /* LaunchScreen.storyboard */; };
 		364986241C5A67A20071DA5D /* Multiple_View_ControllersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364986231C5A67A20071DA5D /* Multiple_View_ControllersTests.swift */; };
+		3649862F1C5A69000071DA5D /* View 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3649862E1C5A69000071DA5D /* View 2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		3649861F1C5A67A20071DA5D /* Multiple View ControllersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multiple View ControllersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		364986231C5A67A20071DA5D /* Multiple_View_ControllersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiple_View_ControllersTests.swift; sourceTree = "<group>"; };
 		364986251C5A67A20071DA5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3649862E1C5A69000071DA5D /* View 2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View 2.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				3649860E1C5A67A20071DA5D /* AppDelegate.swift */,
 				364986101C5A67A20071DA5D /* ViewController.swift */,
+				3649862E1C5A69000071DA5D /* View 2.swift */,
 				364986121C5A67A20071DA5D /* Main.storyboard */,
 				364986151C5A67A20071DA5D /* Assets.xcassets */,
 				364986171C5A67A20071DA5D /* LaunchScreen.storyboard */,
@@ -199,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3649862F1C5A69000071DA5D /* View 2.swift in Sources */,
 				364986111C5A67A20071DA5D /* ViewController.swift in Sources */,
 				3649860F1C5A67A20071DA5D /* AppDelegate.swift in Sources */,
 			);
@@ -329,6 +333,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Multiple View Controllers/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.askari01.Multiple-View-Controllers";
@@ -340,6 +345,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Multiple View Controllers/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.askari01.Multiple-View-Controllers";

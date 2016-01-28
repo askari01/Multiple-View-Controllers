@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // MARK: UIProertise
+    @IBOutlet weak var textField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +23,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let vc2: View_2 = segue.destinationViewController as! View_2
+            vc2.enteredData = textField.text!
+    }
 
 }
 
